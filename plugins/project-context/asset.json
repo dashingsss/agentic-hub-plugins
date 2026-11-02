@@ -1,0 +1,14 @@
+{
+  "type": "agent-plugin",
+  "name": "project-context",
+  "version": "1.0.0",
+  "display_name": "项目资料导航",
+  "description": "按当前任务检索已授权项目中的文档和代码，生成带命中行与关联理由的分层资料包，支持固定、排除和本插件读取后的变化核对。",
+  "publisher": "Wang Jie",
+  "category": "办公与生产力",
+  "tags": ["项目资料", "本地检索", "来源定位"],
+  "functional_tags": ["任务上下文包", "命中行证据", "固定与排除", "读取变化核对"],
+  "scope": "只读用户明确授权的 macOS/Linux 项目目录；Python 3.9+ 和 Node 20+ 标准库，无需额外 pip/npm/embedding 服务。复用 dsh-knit 的任务相关性、分层和关系核心，不替换已有 Wiki、共享记忆或指定文件解析能力。不移植 DSH 侧栏/会话钩子，不自动监控全部宿主读取，不执行项目代码，不理解图片或 PDF，不承诺语义召回或节省 token。macOS 源码、解压包、独立 MCP 及当前 WorkSwarm 用户流程通过，1.0.0 已获用户测试完成确认；Linux 实机及负责人接受独立处理。",
+  "candidate_id": "CAND-DSH-196",
+  "task_id": "AH-20261102-project-context"
+}

@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "package_type": "plugin",
+  "id": "project-context",
+  "name": "项目资料导航",
+  "description": "按当前任务检索授权项目的文档和代码，提供带命中行、来源关系的资料包，并核对固定、排除及读取后的变化。",
+  "display_name": {"en": "项目资料导航", "zh": "项目资料导航"},
+  "display_description": {"en": "任务资料检索、真实行号、固定与排除、本插件读取后的内容变化核对。", "zh": "任务资料检索、真实行号、固定与排除、本插件读取后的内容变化核对。"},
+  "category": "Productivity",
+  "source": "local",
+  "default_init_input": {"en": "创建演示项目，查找令牌登录和离线缓存的资料。", "zh": "创建演示项目，查找令牌登录和离线缓存的资料。"},
+  "tags": [{"en": "项目资料", "zh": "项目资料"}, {"en": "来源定位", "zh": "来源定位"}, {"en": "读取核对", "zh": "读取核对"}],
+  "quick_inputs": [
+    {"en": "创建演示项目，查找令牌登录和离线缓存的资料。", "zh": "创建演示项目，查找令牌登录和离线缓存的资料。"},
+    {"en": "查看已授权项目及读取后的变化，不要修改源文件。", "zh": "查看已授权项目及读取后的变化，不要修改源文件。"}
+  ],
+  "skills": [{"dir": "skills/project-context", "mode": "all"}],
+  "mcps": [{"file": "mcps/project-context/mcp.json"}]
+}

@@ -1,0 +1,155 @@
+{
+  "task_id": "AH-20261102-project-context",
+  "candidate_id": "CAND-DSH-196",
+  "version": "1.0.0",
+  "native_zip_sha256": "e61a6702ada95ce8f2869d046675442c5ac42c35679df13d51fdd9e75523d195",
+  "canonical_zip_sha256": "6e153ee7694cf04ff6cf8dc5969632fde35928842ae391ec4e104a2e255ed669",
+  "source": "User-provided PNG screenshots in the current conversation; exact saved bytes without further resizing, cropping or conversion. No higher-resolution bytes than those actually received are claimed.",
+  "images": [
+    {
+      "file": "01-chinese-context-pack.png",
+      "caption": "中文分层资料包、六个可用文件及实际命中片段",
+      "width": 2260,
+      "height": 1364,
+      "bytes": 434546,
+      "sha256": "cd01b40391d0ec9dcc374c96dad1545aa2047c9caa27326a5a39b806f44268a7",
+      "conversation_timestamp_utc": "2026-11-02T03:00:51.479Z",
+      "image_position_in_message": 1,
+      "url": "https://github.com/user-attachments/assets/f5b147d9-145f-43fa-94aa-8c0c00cd2e2a?raw=true"
+    },
+    {
+      "file": "02-fingerprints-and-lines.png",
+      "caption": "各资料的内容指纹和命中行",
+      "width": 2238,
+      "height": 1356,
+      "bytes": 340341,
+      "sha256": "82e42526e0da79a6d29f70c04450a94545ec2ebb06aca074beb1c1be0750d3a0",
+      "conversation_timestamp_utc": "2026-11-02T03:00:51.479Z",
+      "image_position_in_message": 2,
+      "url": "https://github.com/user-attachments/assets/fb9fa1e0-b3e0-4861-a937-72483209bcb6?raw=true"
+    },
+    {
+      "file": "03-source-relations.png",
+      "caption": "文件引用关系、方向及来源行",
+      "width": 2140,
+      "height": 1244,
+      "bytes": 298221,
+      "sha256": "06e0aaff6bb05cfef771827977df3932d6b9d57bcb9eb1a4f0a07871e1b5b8fe",
+      "conversation_timestamp_utc": "2026-11-02T03:00:51.479Z",
+      "image_position_in_message": 3,
+      "url": "https://github.com/user-attachments/assets/bbd95c44-1a0d-43b8-87e1-dfca1637eba0?raw=true"
+    },
+    {
+      "file": "04-explicit-pin-exclude.png",
+      "caption": "用户明确固定与排除操作及真实返回",
+      "width": 2118,
+      "height": 1324,
+      "bytes": 390468,
+      "sha256": "c28d9cafb35cae3d5a37afc1e2d05067b4fbe2f1b4ae645ae14544d4acf755c8",
+      "conversation_timestamp_utc": "2026-11-02T03:00:51.479Z",
+      "image_position_in_message": 4,
+      "url": "https://github.com/user-attachments/assets/115dc536-4976-4da0-b67e-8b9ff467bcc6?raw=true"
+    },
+    {
+      "file": "05-exclusion-applied.png",
+      "caption": "固定与排除后索引从六个变为五个",
+      "width": 2196,
+      "height": 1344,
+      "bytes": 315322,
+      "sha256": "ba424389e43cab9fe6c72c294f655b40236236e08984f466950c42f30b622a35",
+      "conversation_timestamp_utc": "2026-11-02T03:00:51.479Z",
+      "image_position_in_message": 5,
+      "url": "https://github.com/user-attachments/assets/8a222f47-029c-4d8e-b90c-d5006837d50c?raw=true"
+    },
+    {
+      "file": "06-demo-change-authorization.png",
+      "caption": "仅授权修改独立演示项目的文本",
+      "width": 2102,
+      "height": 1308,
+      "bytes": 376946,
+      "sha256": "050ca37b4238ee5835ccc1bc5d0deb5e9b9edd69ffb105ecaa472d8d8ba243ff",
+      "conversation_timestamp_utc": "2026-11-02T03:00:51.479Z",
+      "image_position_in_message": 6,
+      "url": "https://github.com/user-attachments/assets/d7bbd9eb-c378-4663-ab3c-b81a4a1921d8?raw=true"
+    },
+    {
+      "file": "07-change-and-stale-hash.png",
+      "caption": "检测内容变化、拒绝旧指纹并保留读取记录",
+      "width": 2044,
+      "height": 1350,
+      "bytes": 401939,
+      "sha256": "0d746ec6cddb7cb1a5f622ee354f8893f32ce2c0e53cfb9d6d7e21df949909a2",
+      "conversation_timestamp_utc": "2026-11-02T03:00:51.479Z",
+      "image_position_in_message": 7,
+      "url": "https://github.com/user-attachments/assets/dbff8c0c-e1f2-453b-9775-15647a4eb0d6?raw=true"
+    },
+    {
+      "file": "08-isolated-demo-change.png",
+      "caption": "演示目录路径核对及七天改为五天",
+      "width": 2112,
+      "height": 1310,
+      "bytes": 254332,
+      "sha256": "17dbd4e7ba47e44285db220002cfba276c9b2e9d5a7252584ed4895d2cea9dcd",
+      "conversation_timestamp_utc": "2026-11-02T03:00:51.479Z",
+      "image_position_in_message": 8,
+      "url": "https://github.com/user-attachments/assets/549fd8aa-fbb5-48fc-9ae7-d89ef20c7a70?raw=true"
+    },
+    {
+      "file": "09-new-conversation-calls.png",
+      "caption": "新会话实际查询旧状态并调用保护负例",
+      "width": 2200,
+      "height": 1300,
+      "bytes": 390980,
+      "sha256": "83bf9776d6549c8095f2ca94e8c6b5aba35eb4c15d72ea420d12fa5754d0cdf5",
+      "conversation_timestamp_utc": "2026-11-02T03:00:51.479Z",
+      "image_position_in_message": 9,
+      "url": "https://github.com/user-attachments/assets/6733f0ee-d104-4b43-86f7-9d97eb613a92?raw=true"
+    },
+    {
+      "file": "10-persistent-controls-and-read.png",
+      "caption": "新会话保留固定、排除及新指纹读取记录",
+      "width": 2154,
+      "height": 1358,
+      "bytes": 291827,
+      "sha256": "9ef0917937632da62e6a5a64276b1879a0f3e55949a63f3dd613bd26c7537bdc",
+      "conversation_timestamp_utc": "2026-11-02T03:00:51.479Z",
+      "image_position_in_message": 10,
+      "url": "https://github.com/user-attachments/assets/3a6a8b4e-559c-40fd-b1fe-05fd92546dfc?raw=true"
+    },
+    {
+      "file": "11-boundary-refusal.png",
+      "caption": "路径上跳与隐藏路径的预期拒绝",
+      "width": 2140,
+      "height": 1278,
+      "bytes": 358112,
+      "sha256": "cb53b6ed78b0c0512c22b9bc9ffa6e7ecef8aec31ebdba65a15e50ddbf1faeb0",
+      "conversation_timestamp_utc": "2026-11-02T03:00:51.479Z",
+      "image_position_in_message": 11,
+      "url": "https://github.com/user-attachments/assets/c49d86c3-009d-4283-a463-95d71097e487?raw=true"
+    },
+    {
+      "file": "12-real-project-scan.png",
+      "caption": "真实项目索引九十六个文件及实际跳过项",
+      "width": 2114,
+      "height": 1244,
+      "bytes": 229051,
+      "sha256": "417429a6d7a8bc946796d18462ae4bf88fd7220c378a77dd6a62d6fa71fa89b1",
+      "conversation_timestamp_utc": "2026-11-02T03:00:51.479Z",
+      "image_position_in_message": 12,
+      "url": "https://github.com/user-attachments/assets/41e04775-f914-4d59-ae6b-fe2ba62b3704?raw=true"
+    },
+    {
+      "file": "13-real-project-context.png",
+      "caption": "真实项目分层定位到 context.js 和相关测试",
+      "width": 2174,
+      "height": 1266,
+      "bytes": 288229,
+      "sha256": "01429c4c1293d7f8e2517f49262c7bc214982a7e514662416f5ebdc5f86483af",
+      "conversation_timestamp_utc": "2026-11-02T03:00:51.479Z",
+      "image_position_in_message": 13,
+      "url": "https://github.com/user-attachments/assets/f8253597-96a7-4be1-b300-8170cbb652d4?raw=true"
+    }
+  ],
+  "hosting_issue": "https://github.com/dashingsss/agentic-hub-plugins/issues/4",
+  "verification": "All thirteen uploaded PNG originals downloaded and SHA-256 verified byte-for-byte before PR creation."
+}

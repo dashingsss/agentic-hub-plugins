@@ -1,0 +1,13 @@
+{
+  "mode": "ported",
+  "permission_status": "verified",
+  "sources": [{
+    "url": "https://github.com/PolinniZhong/dsh-knit",
+    "revision": "6c8c91a198efbcce1f4fae034e24f0b575f0b034",
+    "version": "0.25.0",
+    "license_expression": "MIT",
+    "license_evidence": [{"path": "licenses/dsh-knit/LICENSE", "sha256": "8f0d3535cb8e31e61cf6ebf0d9d4f0aa9509659c3ff43d8d77e1f6c5f6972cbb"}]
+  }],
+  "reused_paths": ["vendor/dsh-knit/relevance.js", "vendor/dsh-knit/context.js", "vendor/dsh-knit/classification.js", "vendor/dsh-knit/relations.js", "vendor/dsh-knit/links.js", "vendor/dsh-knit/passage.js"],
+  "audit_file": "SOURCE_REVIEW.md"
+}
