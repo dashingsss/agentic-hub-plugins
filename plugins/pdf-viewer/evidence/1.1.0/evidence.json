@@ -1,0 +1,162 @@
+{
+  "task_id": "AH-20261030-pdf-viewer",
+  "candidate_id": "CAND-CLD-022",
+  "asset_id": "repo:agent-plugin:pdf-viewer",
+  "display_name": "PDF阅览与批注助手",
+  "version": "1.1.0",
+  "owner": "Nguyen Trung Dung",
+  "native_zip_sha256": "8930599d09c7f573d7cda772b46f5a5f81156009bc1120d497620140b677411e",
+  "canonical_zip_sha256": "9b8711cb927647b3fcf0743e8ce093480e5a0ddf949bdf8e88387e3dd019cc54",
+  "confirmation_date": "2026-11-02",
+  "timezone": "Asia/Singapore",
+  "user_confirmation": "Testing is complete and passed",
+  "confirmation_scope": "Explicit response to the current1.1.0/hash8930599d09c7 question covering saved PDF, visible preview, forms and signature-image tests. Current conversation; exact message timestamp/permalink unavailable.",
+  "screenshot_displayed_date": "2026-10-30 where visible; receipt/explicit confirmation2026-11-02, not relabeled as same-day captures",
+  "originals": "13 supplied full-resolution PNGs individually viewed; copied byte-for-byte without editing/recompression; no credentials/secret values observed. Local username/workspace paths visible as supplied.",
+  "limits": "Most response bodies and all rendered pages/form-signature results are outside supplied crops. Native interact is unsupported and not counted as success. User explicit completion is separate from screenshot assertions and SDK tests.",
+  "images": [
+    {
+      "file": "01-plugin-enabled.png",
+      "original_filename": "codex-clipboard-05394847-a428-4136-9d06-cee7061978f3.png",
+      "sha256": "0c0951a8eab91ab357d5ef56a778b35f1390a0daced3b6801c793220b0b44514",
+      "bytes": 59477,
+      "dimensions": [
+        882,
+        623
+      ],
+      "scope_and_limits": "PDF Viewer enabled in English host locale; screenshot does not show version. Chinese packaged identity and exact1.1.0 hash confirmed separately."
+    },
+    {
+      "file": "02-read-only-test.png",
+      "original_filename": "codex-clipboard-88e64b53-63e1-4b76-a098-53e5ac7f8cb0.png",
+      "sha256": "14ae3edb98f41d6432bde0e67c4d6932d1f1f4bfa32dc69c6ad6453dd66a7618",
+      "bytes": 77230,
+      "dimensions": [
+        1277,
+        877
+      ],
+      "scope_and_limits": "Historical prompt requests old MCP names; actual calls use native Pdf review. Conversation date shown2026-10-30; no completed result body in crop."
+    },
+    {
+      "file": "03-skill-loaded.png",
+      "original_filename": "codex-clipboard-2e08b51f-12c0-4be3-a823-7f80776cb73e.png",
+      "sha256": "29e28bbadb6ee918a579f81370bcf72be7164d77690569cf8125ad91880ee9d9",
+      "bytes": 35551,
+      "dimensions": [
+        1080,
+        536
+      ],
+      "scope_and_limits": "Actual skill_tool load of pdf-viewer; partial Skill body."
+    },
+    {
+      "file": "04-help.png",
+      "original_filename": "codex-clipboard-09670b9d-8238-4b23-9a0b-f73a4665c3b5.png",
+      "sha256": "8267042b103bb345b3b8d405f5572716fcbb3e4e5834940536b749fbe39ed2ce",
+      "bytes": 22121,
+      "dimensions": [
+        606,
+        367
+      ],
+      "scope_and_limits": "Actual pdf_review help arguments in the named workspace; result cropped."
+    },
+    {
+      "file": "05-status.png",
+      "original_filename": "codex-clipboard-c3a5a39a-f463-4889-ab0d-2d8b69c5b5cc.png",
+      "sha256": "9a72ab9b262f801ac311646d1896b8a94ca153692b95a7000ceca0cb0cf60817",
+      "bytes": 29396,
+      "dimensions": [
+        887,
+        422
+      ],
+      "scope_and_limits": "Actual pdf_review status call; complete ready/version result not visible."
+    },
+    {
+      "file": "06-list-pdfs.png",
+      "original_filename": "codex-clipboard-b4104091-66c9-4f12-8d85-7b38b4ed215b.png",
+      "sha256": "4d9daa4608bd9f738217176c5d381c65da2d685a7fd8b82ea198467f7ce0d6ae",
+      "bytes": 22935,
+      "dimensions": [
+        1147,
+        395
+      ],
+      "scope_and_limits": "Actual list_pdfs call and trailing dependency-ready text from prior result; listing result cropped."
+    },
+    {
+      "file": "07-open.png",
+      "original_filename": "codex-clipboard-e86f7113-df0a-47cc-90e2-9a05d36493b2.png",
+      "sha256": "856babb4694e4f1d4be7320ab0436b0125f610999ff12eae3c9e3e32a4d89498",
+      "bytes": 33151,
+      "dimensions": [
+        845,
+        488
+      ],
+      "scope_and_limits": "Actual native open call for synthetic sample.pdf; result body cropped."
+    },
+    {
+      "file": "08-unsupported-interact.png",
+      "original_filename": "codex-clipboard-ee55aa5a-ca4b-4d80-bfd8-2b29f5c8024d.png",
+      "sha256": "b1e802d1a3e071b74bbde8d1b697346e8a40a1834d923086d49940dde40f7968",
+      "bytes": 28915,
+      "dimensions": [
+        1126,
+        507
+      ],
+      "scope_and_limits": "Model attempted action interact, which is not supported by native1.1.0. DONE marks tool completion, not successful action; response omitted. Not counted as a successful viewer/preview operation."
+    },
+    {
+      "file": "09-plan.png",
+      "original_filename": "codex-clipboard-2290c3d4-c4be-4fbd-86bb-ecc8a3307879.png",
+      "sha256": "26a145913b838945e9d0bf9753a9e26b78f3db20314a001c6a1183c717e26110",
+      "bytes": 37335,
+      "dimensions": [
+        1198,
+        527
+      ],
+      "scope_and_limits": "Actual plan call with revision0 and highlight_text command; response cropped."
+    },
+    {
+      "file": "10-apply-confirmed.png",
+      "original_filename": "codex-clipboard-783cf235-0f3c-44a6-b15d-64b9850070f9.png",
+      "sha256": "06fdcfa0571b27d48f4e7cedff7ee55b3bbcd20812cb0689e35b2f74dc9dad20",
+      "bytes": 42835,
+      "dimensions": [
+        1177,
+        617
+      ],
+      "scope_and_limits": "Actual apply arguments include confirmed=true, revision0 and plan/review IDs. User authorization outside crop; user later explicitly confirms tests passed."
+    },
+    {
+      "file": "11-update-plan.png",
+      "original_filename": "codex-clipboard-0e9b5b32-de0b-48c5-a5c4-31f46c68b071.png",
+      "sha256": "012cd36f39f080ca2c7896fcc75666c68210d9a63f1556487dfed61bbb667f7a",
+      "bytes": 35336,
+      "dimensions": [
+        1185,
+        563
+      ],
+      "scope_and_limits": "Actual revision1 update_annotations plan; full results cropped."
+    },
+    {
+      "file": "12-preview.png",
+      "original_filename": "codex-clipboard-2e5cc29b-7d04-484f-8a76-e2793223fa44.png",
+      "sha256": "4cf0a23c96d58e2fab9f3b3b0d1799f5670d59720718de838dba73e2083a57d5",
+      "bytes": 36203,
+      "dimensions": [
+        1287,
+        557
+      ],
+      "scope_and_limits": "Actual preview arguments for page1/scale1; rendered page and full result not visible."
+    },
+    {
+      "file": "13-save-as.png",
+      "original_filename": "codex-clipboard-7f43a1d6-3238-4086-8958-33f0d7b378b9.png",
+      "sha256": "59f3ca6ec62d00e7de1541b992b38b2946f7acb9be623085adf00d677a0d9b84",
+      "bytes": 62504,
+      "dimensions": [
+        1128,
+        592
+      ],
+      "scope_and_limits": "Visible applied=true state excerpt and model report revision2, note changed, stamp removed and highlight retained; actual save_as call shown. Save result cropped; actual saved PDF verified separately read-only."
+    }
+  ]
+}

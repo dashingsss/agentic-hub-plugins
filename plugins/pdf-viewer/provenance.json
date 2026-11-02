@@ -1,0 +1,179 @@
+{
+  "mode": "native",
+  "permission_status": "original",
+  "sources": [],
+  "reused_paths": [],
+  "audit_file": "SOURCE_REVIEW.md",
+  "independent_spec": "NATIVE_DESIGN.md",
+  "version": "1.1.0",
+  "materials_seen": [
+    {
+      "url": "https://github.com/anthropics/knowledge-work-plugins",
+      "revision": "2574e29377c7173d0cecffef29a6ecbd7f8ccb5d",
+      "use": "Historical 1.0.0 port and public functional description; no implementation copied into 1.1.0."
+    },
+    {
+      "url": "https://github.com/modelcontextprotocol/ext-apps",
+      "revision": "7af9a75da720b8a81be0f9aff47b25f75e9530ad",
+      "use": "Diagnosed MCP roots and viewer dependency; no implementation copied into 1.1.0."
+    }
+  ],
+  "distribution_notes": [
+    "Only independently implemented Python tool/engine and Chinese workflow instructions are shipped.",
+    "pypdf, ReportLab, Pillow and pypdfium2 are installed separately; no dependency source, binary, Node runtime or MCP server implementation is redistributed.",
+    "Historical Apache/MCP license texts are retained for traceability of 1.0.0; new runtime does not depend on those implementations."
+  ],
+  "localization": {
+    "date": "2026-10-30",
+    "version": "1.1.0",
+    "scope": "Chinese instructions, tool schema, help, errors, confirmation flow and package metadata.",
+    "host_test_authority": "Assistant tests are separate from pending user testing of this new package.",
+    "hub_submission_authorized": false
+  },
+  "license_reference_files": [
+    {
+      "path": "licenses/claude-knowledge-work-plugins/LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "licenses/modelcontextprotocol-ext-apps/LICENSE",
+      "sha256": "0382b0057770ca05e9c350a50aa3b1c1fea84da0bc81d723bf00b9aa841be58a"
+    },
+    {
+      "path": "licenses/pillow/LICENSE",
+      "sha256": "75bb81b58f9b39786eeb2e56a1eb829aae501042d49e1dc766ca187b6ce9656f"
+    },
+    {
+      "path": "licenses/pypdf/LICENSE",
+      "sha256": "a97ac230e5f33ef10a5367a850eb01f91f1a0b064e34742c7794d2294557f524"
+    },
+    {
+      "path": "licenses/pypdfium2/BUILD_LICENSES/abseil.txt",
+      "sha256": "c79a7fea0e3cac04cd43f20e7b648e5a0ff8fa5344e644b0ee09ca1162b62747"
+    },
+    {
+      "path": "licenses/pypdfium2/BUILD_LICENSES/agg23.txt",
+      "sha256": "c110d3ea2ad77467ce0dcff7d3337e6c8be8049a5103f4b9bd5fd911a77972e5"
+    },
+    {
+      "path": "licenses/pypdfium2/BUILD_LICENSES/all_except_musl/llvm-libc.txt",
+      "sha256": "ebcd9bbf783a73d05c53ba4d586b8d5813dcdf3bbec50265860ccc885e606f47"
+    },
+    {
+      "path": "licenses/pypdfium2/BUILD_LICENSES/android/catapult.txt",
+      "sha256": "f0df289ba9d03d857ad1c2f5918861376b1510b71588ffc60eff5c7a7bfedb09"
+    },
+    {
+      "path": "licenses/pypdfium2/BUILD_LICENSES/android/cpu_features.txt",
+      "sha256": "af272c1b4dd08dd61d43e001d3134119d03ca7a2b057a64f7355fdf27fbea3dd"
+    },
+    {
+      "path": "licenses/pypdfium2/BUILD_LICENSES/android/libunwind.txt",
+      "sha256": "b5efebcaca80879234098e52d1725e6d9eb8fb96a19fce625d39184b705f7b6d"
+    },
+    {
+      "path": "licenses/pypdfium2/BUILD_LICENSES/cibw_musl/libgcc_and_libstdc++.txt",
+      "sha256": "b3eeac3d6760b1d49f0f9de1f1004015453d3c5e9671b9ca5b307f2d22cf8bc5"
+    },
+    {
+      "path": "licenses/pypdfium2/BUILD_LICENSES/fast_float.txt",
+      "sha256": "e562f3f974ced7e69dd1db77b820b36bcf8f30377f1aa105723fba449c53c4e6"
+    },
+    {
+      "path": "licenses/pypdfium2/BUILD_LICENSES/freetype.txt",
+      "sha256": "f4b133e25df1f86ad3ffea453aa0e613f0474f34778dbbb3e437e7b2724937d8"
+    },
+    {
+      "path": "licenses/pypdfium2/BUILD_LICENSES/icu.txt",
+      "sha256": "17510cf7a58b4879b887ec05a45d72cf1b73544dd9ec7e72f20110ed104229ee"
+    },
+    {
+      "path": "licenses/pypdfium2/BUILD_LICENSES/lcms.txt",
+      "sha256": "5132b7530ae5acab7058634da86470d3d38bb01d70c2b67ba10c96bc62ced1af"
+    },
+    {
+      "path": "licenses/pypdfium2/BUILD_LICENSES/libjpeg_turbo.ijg",
+      "sha256": "75815e3bf6484201a3c3d17a1bbf10f2e8e3237f84df10a2357ea896db2a81d6"
+    },
+    {
+      "path": "licenses/pypdfium2/BUILD_LICENSES/libjpeg_turbo.md",
+      "sha256": "96f5b328adbb78eeaaec6980d73fd558cb1e4d62560ed615646bc3cf5e532430"
+    },
+    {
+      "path": "licenses/pypdfium2/BUILD_LICENSES/libopenjpeg.txt",
+      "sha256": "c5ab0890a737c2dfa7ba675036554f6d17741d98629b0c2a145354d00617e6b2"
+    },
+    {
+      "path": "licenses/pypdfium2/BUILD_LICENSES/libpng.txt",
+      "sha256": "bf5e22b9dce8464064ae17a48ea1133c3369ac9e1d80ef9e320e5219aa14ea9b"
+    },
+    {
+      "path": "licenses/pypdfium2/BUILD_LICENSES/libtiff.txt",
+      "sha256": "92b72ba97e6c2749c2a94bc0ef646b47080217f1e772a482b33cf5a5f98a6506"
+    },
+    {
+      "path": "licenses/pypdfium2/BUILD_LICENSES/pdfium-binaries.txt",
+      "sha256": "18f922f766364a25a6327e7b1b8287d7c36cf8bbea80767d014fb453e2fe4a50"
+    },
+    {
+      "path": "licenses/pypdfium2/BUILD_LICENSES/pdfium-binaries_musl/musl.txt",
+      "sha256": "b870108ec5e7790e9f9919064f1b9421d62d5f9b0e6c230c6adf7ea2da62e97b"
+    },
+    {
+      "path": "licenses/pypdfium2/BUILD_LICENSES/pdfium.txt",
+      "sha256": "1fe9dea718fbd75cf149adaf4d8a22a4335604d964ddb76d1b45383dec8668c9"
+    },
+    {
+      "path": "licenses/pypdfium2/BUILD_LICENSES/v8_xfa/bigint.txt",
+      "sha256": "32759d1397d8f7b9e15ece146e4038b22b90e93b4935b5a840bcef4d2ba5ea55"
+    },
+    {
+      "path": "licenses/pypdfium2/BUILD_LICENSES/v8_xfa/fdlibm.txt",
+      "sha256": "e7115e18444dae09d17f361ddc365fb1d342640fe500796209c63f7c80dfae10"
+    },
+    {
+      "path": "licenses/pypdfium2/BUILD_LICENSES/v8_xfa/fp16.txt",
+      "sha256": "c91377adafa2f498211a4fe017788e20c38892124673860f068f2919c289193d"
+    },
+    {
+      "path": "licenses/pypdfium2/BUILD_LICENSES/v8_xfa/highway.txt",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "licenses/pypdfium2/BUILD_LICENSES/v8_xfa/inspector_protocol.txt",
+      "sha256": "450ebb9e9e50c2809d9ca581931fc8946d8d5aa0c8c35aae9ac471342fe4a88e"
+    },
+    {
+      "path": "licenses/pypdfium2/BUILD_LICENSES/v8_xfa/simdutf.txt",
+      "sha256": "fc8dbc04e03ad4efc08a647ffe7f995b811a95bc04c0e85a56d5277c6593fa5f"
+    },
+    {
+      "path": "licenses/pypdfium2/BUILD_LICENSES/v8_xfa/strongtalk.txt",
+      "sha256": "6a585a9f466654abc8fc0829d56b1bc987e3a073d31faa03bba37d33640a23cd"
+    },
+    {
+      "path": "licenses/pypdfium2/BUILD_LICENSES/v8_xfa/v8.txt",
+      "sha256": "4af93c12062c58058378de2397dc1c92bbff9ddfb1d583a01c84127557ce97ca"
+    },
+    {
+      "path": "licenses/pypdfium2/BUILD_LICENSES/zlib.txt",
+      "sha256": "02421fcfbfb1d656ef0b6ff4cd3c39f2946f08c3219fa42db482add7ce1f53ea"
+    },
+    {
+      "path": "licenses/pypdfium2/LICENSES/Apache-2.0.txt",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "licenses/pypdfium2/LICENSES/BSD-3-Clause.txt",
+      "sha256": "a6d11f0694c0137e9b02924b9d33a159f6c72f220fa4655bb2e1ea3654377d39"
+    },
+    {
+      "path": "licenses/pypdfium2/LICENSES/CC-BY-4.0.txt",
+      "sha256": "419896aea50c15d6e40c5b4baf4bd346f78223b9a354c7357ad00262afdc08ec"
+    },
+    {
+      "path": "licenses/reportlab/LICENSE",
+      "sha256": "ef831761646313921375fc2cb888e8eeaf7da213d0b92852c10c42f3a0b4d138"
+    }
+  ]
+}

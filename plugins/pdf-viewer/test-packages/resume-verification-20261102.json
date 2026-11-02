@@ -1,0 +1,100 @@
+{
+  "checked_at_utc": "2026-11-02T01:52:10.364132+00:00",
+  "python": "3.12.6 (tags/v3.12.6:a4a2d2b, Sep  6 2024, 20:11:23) [MSC v.1940 64 bit (AMD64)]",
+  "python_executable": "D:\\Python 3\\python.exe",
+  "installed_distribution_metadata": {
+    "pypdf": "6.10.2",
+    "reportlab": "4.4.9",
+    "Pillow": "12.2.0",
+    "pypdfium2": "5.10.1",
+    "openjiuwen": "0.1.16",
+    "jiuwenswarm": "0.2.3"
+  },
+  "sdk_checkout": "D:\\jiuwen_repos\\agent-core-latest",
+  "native_sha256": "8930599d09c7f573d7cda772b46f5a5f81156009bc1120d497620140b677411e",
+  "canonical_sha256": "9b8711cb927647b3fcf0743e8ce093480e5a0ddf949bdf8e88387e3dd019cc54",
+  "runtime_files": 43,
+  "payload_source_native_canonical_equal": true,
+  "payload_unchanged_after_tests": true,
+  "checks": [
+    {
+      "check": "asset-check",
+      "exit_code": 0,
+      "log": "asset-check.log"
+    },
+    {
+      "check": "source-functional",
+      "exit_code": 0,
+      "log": "source-functional.log"
+    },
+    {
+      "check": "extracted-functional",
+      "exit_code": 0,
+      "log": "extracted-functional.log"
+    },
+    {
+      "check": "source-host",
+      "exit_code": 0,
+      "log": "source-host.log"
+    },
+    {
+      "check": "extracted-host",
+      "exit_code": 0,
+      "log": "extracted-host.log"
+    }
+  ],
+  "all_checks_passed": true,
+  "user_test_completion": "Not supplied for current 1.1.0 in this conversation",
+  "frontend": "Not tested by this resume check",
+  "sdk_commit": "0ab5913b250d565b35bff3828dae438939cb1acd",
+  "selected_sdk_distribution_metadata": "0.1.19 from explicit PYTHONPATH; base interpreter distribution metadata is 0.1.16",
+  "original_sdk_unrelated_change": "browser_move/decision/config.py; unchanged by this work",
+  "visual_qa": "Five rendered PNGs individually viewed: annotations, forms/signature, shapes/Chinese stamp, rotation and crop",
+  "same_version_pack_guard_verified": true,
+  "manual_workspace": "D:\\jiuwen_repos\\agentic-hub-plugins-pdf-viewer-repair\\dist\\pdf-viewer\\1.1.0\\manual-workspace",
+  "tracker_report_id": "RPT-20261102-pdf-viewer-resume-110",
+  "source-host": {
+    "checked_at_utc": "2026-11-02T01:52:01.288837+00:00",
+    "payload": "D:\\jiuwen_repos\\agentic-hub-plugins-pdf-viewer-repair\\plugins\\pdf-viewer\\pdf-viewer",
+    "version": "1.1.0",
+    "actual_deepagent_loader": true,
+    "sdk_source": "D:\\jiuwen_repos\\agent-core-latest\\openjiuwen\\__init__.py",
+    "model_visible_tools": [
+      "pdf_review"
+    ],
+    "exposure": "direct",
+    "runner_status_ready": true,
+    "empty_workspace_list": true,
+    "chinese_help": true,
+    "unload_verified": true,
+    "payload_unchanged": true,
+    "installed_distribution_metadata": {
+      "openjiuwen": "0.1.19",
+      "jiuwenswarm": "0.2.3"
+    },
+    "workswarm_frontend": "not tested; user testing still required",
+    "model_calls": 0
+  },
+  "extracted-host": {
+    "checked_at_utc": "2026-11-02T01:52:09.780143+00:00",
+    "payload": "D:\\jiuwen_repos\\agentic-hub-plugins-pdf-viewer-repair\\.research\\resume-pdf-20261102\\extracted-native",
+    "version": "1.1.0",
+    "actual_deepagent_loader": true,
+    "sdk_source": "D:\\jiuwen_repos\\agent-core-latest\\openjiuwen\\__init__.py",
+    "model_visible_tools": [
+      "pdf_review"
+    ],
+    "exposure": "direct",
+    "runner_status_ready": true,
+    "empty_workspace_list": true,
+    "chinese_help": true,
+    "unload_verified": true,
+    "payload_unchanged": true,
+    "installed_distribution_metadata": {
+      "openjiuwen": "0.1.19",
+      "jiuwenswarm": "0.2.3"
+    },
+    "workswarm_frontend": "not tested; user testing still required",
+    "model_calls": 0
+  }
+}

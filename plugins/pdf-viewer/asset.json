@@ -1,0 +1,26 @@
+{
+  "type": "agent-plugin",
+  "name": "pdf-viewer",
+  "version": "1.1.0",
+  "display_name": "PDF阅览与批注助手",
+  "description": "通过工作目录内的页面预览与逐批确认，完成 PDF 高亮、便签、印章、表单和签名图片，另存并校验副本；无需 MCP App 查看器。",
+  "publisher": "Nguyen Trung Dung",
+  "category": "合规与法律",
+  "tags": [
+    "PDF 批注",
+    "表单填写",
+    "可视审阅",
+    "本地工具"
+  ],
+  "functional_tags": [
+    "文档处理",
+    "批注与审阅",
+    "页面预览"
+  ],
+  "scope": "单文档可视审阅闭环：明确工作目录、页面 PNG 预览、搜索定位、修改计划、用户确认、批注/表单/签名图片和另存副本。不做实时拖拽查看器、OCR、通用办公文档转换、摘要或密码学数字签名；不覆盖原稿。",
+  "candidate_id": "CAND-CLD-022",
+  "task_id": "AH-20261030-pdf-viewer",
+  "related_asset_ids": [
+    "58423394089843bcb863654f02ab937a"
+  ]
+}
