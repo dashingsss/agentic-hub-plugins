@@ -1,0 +1,8 @@
+{
+  "native_sha256": "8930599d09c7f573d7cda772b46f5a5f81156009bc1120d497620140b677411e",
+  "marketplace_sha256": "9b8711cb927647b3fcf0743e8ce093480e5a0ddf949bdf8e88387e3dd019cc54",
+  "payload_files": 43,
+  "payload_identical": true,
+  "license_files": 36,
+  "native_bytes": 398982
+}

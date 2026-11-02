@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "asset_id": "repo:agent-plugin:pdf-viewer",
+  "type": "agent-plugin",
+  "name": "pdf-viewer",
+  "version": "1.0.0",
+  "zip": "pdf-viewer-1.0.0.zip",
+  "sha256": "7c36ab0252af7856c4abc956199ff98df941edd022a4b14561e0dee1272c3195",
+  "payload_sha256": {
+    "licenses/claude-knowledge-work-plugins/LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "licenses/modelcontextprotocol-ext-apps/LICENSE": "0382b0057770ca05e9c350a50aa3b1c1fea84da0bc81d723bf00b9aa841be58a",
+    "manifest.json": "4b00576d6ceb4776a82537cbc9a13fa027103b9cd179d581e97c20682f204836",
+    "mcps/pdf-viewer/mcp.json": "dd28fa8594e88e5a318f7c34d2b10506b8fe758dcf743244a7dee115d18686e7",
+    "README.md": "9d4b9b503b1c79791f3cad9fd8d2f26305567ef8cbf971dcd77f9478832155ff",
+    "skills/pdf-viewer/SKILL.md": "715be6b5f611b6b05675b2c49a51fd7fec4ded50e2073abceb91e43fb2709535",
+    "THIRD_PARTY_NOTICES.md": "ae2500ed464b922211a5782f3ad7853c9821a5cf12e8b6fdcf46092235e0b753"
+  },
+  "provenance_mode": "ported",
+  "source_review_sha256": "62639db4c2d27511f33d88b30c17e1c5b17a0df1b3e122500869cfc65fae0590",
+  "functional_test_report_sha256": "72602af80971ef6fcea4bc129e7359edbfdb90c47594e55a84235269a0be425f"
+}

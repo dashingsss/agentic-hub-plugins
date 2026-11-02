@@ -52,3 +52,17 @@
 # Preserve the exact user-confirmed molecule payload, packages and original evidence.
 /plugins/molecule-structure-lab/** -text
 /releases/agent-plugin/molecule-structure-lab/** -text
+
+# Preserve exact user-confirmed PDF payload/licenses and binary test files.
+/plugins/pdf-viewer/pdf-viewer/** -text
+/plugins/pdf-viewer/*.md text eol=lf
+/plugins/pdf-viewer/*.json text eol=lf
+/plugins/pdf-viewer/tests/** text eol=lf
+/plugins/pdf-viewer/test-packages/*.zip -text
+/releases/agent-plugin/pdf-viewer/** -text
+/plugins/pdf-viewer/history/*.md text eol=lf
+/plugins/pdf-viewer/test-packages/*.json text eol=lf
+/plugins/pdf-viewer/test-packages/**/*.pdf binary
+/plugins/pdf-viewer/test-packages/**/*.png binary
+/plugins/pdf-viewer/evidence/**/*.png binary
+/plugins/pdf-viewer/evidence/**/*.json text eol=lf

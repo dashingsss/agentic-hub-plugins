@@ -1,0 +1,59 @@
+{
+  "version": "1.1.0",
+  "package_type": "plugin",
+  "id": "pdf-viewer",
+  "name": "PDF阅览与批注助手",
+  "description": "通过工作目录内的页面预览与逐批确认，完成 PDF 高亮、便签、印章、表单和签名图片，另存并校验副本；无需 MCP App 查看器。",
+  "display_name": {
+    "zh": "PDF阅览与批注助手",
+    "en": "PDF Viewer"
+  },
+  "display_description": {
+    "zh": "通过工作目录内的页面预览与逐批确认，完成 PDF 高亮、便签、印章、表单和签名图片，另存并校验副本；无需 MCP App 查看器。",
+    "en": "Review PDFs with local page previews, approved annotations, forms, signature images and verified saved copies. No MCP App required."
+  },
+  "category": "合规与法律",
+  "source": "local",
+  "default_init_input": {
+    "zh": "检查 PDF 工具依赖，在当前工作目录列出 PDF，打开 sample.pdf 并展示第 1 页预览，先不添加批注。",
+    "en": "Check PDF dependencies, list PDFs in the current workspace and preview sample.pdf without edits."
+  },
+  "tags": [
+    {
+      "zh": "PDF 批注",
+      "en": "PDF 批注"
+    },
+    {
+      "zh": "表单填写",
+      "en": "表单填写"
+    },
+    {
+      "zh": "可视审阅",
+      "en": "可视审阅"
+    },
+    {
+      "zh": "本地工具",
+      "en": "本地工具"
+    }
+  ],
+  "skills": [
+    {
+      "dir": "skills/pdf-viewer",
+      "mode": "all"
+    }
+  ],
+  "tools": [
+    {
+      "file": "tools/pdf_review_tool.py",
+      "class": "PdfReviewTool",
+      "display_name": {
+        "zh": "PDF审阅与批注",
+        "en": "PDF Review"
+      },
+      "display_description": {
+        "zh": "通过工作目录内的页面预览与逐批确认，完成 PDF 高亮、便签、印章、表单和签名图片，另存并校验副本；无需 MCP App 查看器。",
+        "en": "通过工作目录内的页面预览与逐批确认，完成 PDF 高亮、便签、印章、表单和签名图片，另存并校验副本；无需 MCP App 查看器。"
+      }
+    }
+  ]
+}

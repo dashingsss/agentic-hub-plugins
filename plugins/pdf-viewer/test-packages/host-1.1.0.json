@@ -1,0 +1,22 @@
+{
+  "checked_at_utc": "2026-10-30T07:13:19.441291+00:00",
+  "payload": "C:\\Windows\\Temp\\pdf-viewer-native-extract-hnw5jkyd",
+  "version": "1.1.0",
+  "actual_deepagent_loader": true,
+  "sdk_source": "D:\\jiuwen_repos\\agent-core-latest\\openjiuwen\\__init__.py",
+  "model_visible_tools": [
+    "pdf_review"
+  ],
+  "exposure": "direct",
+  "runner_status_ready": true,
+  "empty_workspace_list": true,
+  "chinese_help": true,
+  "unload_verified": true,
+  "payload_unchanged": true,
+  "installed_distribution_metadata": {
+    "openjiuwen": "0.1.19",
+    "jiuwenswarm": "0.2.3"
+  },
+  "workswarm_frontend": "not tested; user testing still required",
+  "model_calls": 0
+}

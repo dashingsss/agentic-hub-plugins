@@ -1,0 +1,18 @@
+{
+  "review_id": "edc8b4a340d94e10bf88edb2aa7e311a",
+  "revision": 2,
+  "source_matches_original_hash": true,
+  "saved_pdf_pages": 2,
+  "saved_pdf_bytes": 30063,
+  "saved_pdf_sha256": "6b34b584c364f9bc519566b12c16f3736750b8b4a8eba26ff275f1faf868c6a2",
+  "annotation_types": [
+    "/Highlight",
+    "/Text"
+  ],
+  "note_contents": [
+    "测试批注：已复核"
+  ],
+  "stamp_absent_from_state": true,
+  "method": "Read-only pypdf inspection of exact synthetic output and review state shown in screenshots; original user PDFs/state not changed or distributed.",
+  "scope": "Saved annotation copy verified; not independent proof of manual form/signature or frontend PNG rendering, which user explicitly confirmed separately."
+}

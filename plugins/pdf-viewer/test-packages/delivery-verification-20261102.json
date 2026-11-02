@@ -1,0 +1,46 @@
+{
+  "date": "2026-11-02",
+  "timezone": "Asia/Singapore",
+  "current_main_base": "b3dad00f5049827288eaedbbc87b4cdbce12583c",
+  "integration_worktree": "D:\\jiuwen_repos\\agentic-hub-plugins-pdf-viewer-submit-20261102",
+  "source_repair_evidence_commit": "6a81eae56214325dbdba6cfaa676af92be6fab51",
+  "clean_lf_checkout": true,
+  "check_repo": {
+    "source_assets": 53,
+    "release_zips": 63,
+    "passed": true
+  },
+  "own_real_pdf_functional_cases": 14,
+  "own_real_pdf_functional_passed": true,
+  "real_host": {
+    "checked_at_utc": "2026-11-02T02:11:05.261901+00:00",
+    "payload": "D:\\jiuwen_repos\\agentic-hub-plugins-pdf-viewer-submit-20261102\\plugins\\pdf-viewer\\pdf-viewer",
+    "version": "1.1.0",
+    "actual_deepagent_loader": true,
+    "sdk_source": "D:\\jiuwen_repos\\agent-core-latest\\openjiuwen\\__init__.py",
+    "model_visible_tools": [
+      "pdf_review"
+    ],
+    "exposure": "direct",
+    "runner_status_ready": true,
+    "empty_workspace_list": true,
+    "chinese_help": true,
+    "unload_verified": true,
+    "payload_unchanged": true,
+    "installed_distribution_metadata": {
+      "openjiuwen": "0.1.19",
+      "jiuwenswarm": "0.2.3"
+    },
+    "workswarm_frontend": "not tested; user testing still required",
+    "model_calls": 0
+  },
+  "source_native_canonical_files_match": 43,
+  "native_sha256": "8930599d09c7f573d7cda772b46f5a5f81156009bc1120d497620140b677411e",
+  "canonical_sha256": "9b8711cb927647b3fcf0743e8ce093480e5a0ddf949bdf8e88387e3dd019cc54",
+  "user_confirmation": "Testing is complete and passed",
+  "user_confirmation_report_id": "RPT-20261102-pdf-viewer-confirmed-110",
+  "original_screenshots": 13,
+  "github_ci": "Not yet run; must verify actual successful checks before merge",
+  "local_full_windows_repo_suite": "Not rerun; no all-green claim",
+  "historical_1_0_0_archives": "Retained for diagnosis/history only; failed viewer-dependent version, not user accepted or recommended for import; only1.1.0 is current delivery"
+}
